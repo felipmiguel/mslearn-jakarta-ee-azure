@@ -1,0 +1,7 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <module name="com.azure.credential-free-jdbc" />
+        </dependencies>                 
+    </deployment>
+</jboss-deployment-structure>

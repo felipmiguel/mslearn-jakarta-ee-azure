@@ -20,3 +20,5 @@ data-source add --name=JPAWorldDataSourceDS \
 --exception-sorter-class-name=com.mysql.cj.jdbc.integration.jboss.ExtendedMysqlExceptionSorter
 exit
 EOF
+
+/opt/eap/bin/add-user.sh -u admin -p admin -r ManagementRealm
